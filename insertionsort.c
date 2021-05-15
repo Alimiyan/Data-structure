@@ -7,8 +7,7 @@ void main(){
     for(i=0;i<limit;i++){
         scanf("%d",&a[i]);
     }
-  
-    for(i=1;i<limit;i++){
+    for(int i=1;i<limit;i++){
         cur=a[i];
         j=i-1;
         while(j>=0 && cur<a[j]){
